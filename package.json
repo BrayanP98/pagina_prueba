@@ -1,5 +1,9 @@
 {
   "dependencies": {
+    "mongoose": "^7.0.2",
+    "mysql": "^2.18.1",
     "node": "^19.6.1"
+  },"scripts": {
+    "start": "node public/js/app.js "
   }
 }
