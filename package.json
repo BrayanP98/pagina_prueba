@@ -4,6 +4,6 @@
     "mysql": "^2.18.1",
     "node": "^19.6.1"
   },"scripts": {
-    "run": "node public/js/app.js "
+    "start": "node public/js/app.js "
   }
 }
