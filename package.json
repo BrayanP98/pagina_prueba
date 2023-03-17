@@ -2,8 +2,11 @@
   "dependencies": {
     "mongoose": "^7.0.2",
     "mysql": "^2.18.1",
-    "node": "^19.6.1"
-  },"scripts": {
+    "node": "^19.6.1",
+    "nodemon": "^2.0.21"
+  },
+  "scripts": {
+    "dev": "nodemon public/js/app.js ",
     "start": "node public/js/app.js "
   }
 }
