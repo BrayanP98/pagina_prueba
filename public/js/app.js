@@ -1,5 +1,7 @@
 // Cargar el modulo HTTP
+const config = require('./config');
 var http = require('http');
+
 const fs= require('fs')
 
 // Configurar una respuesta HTTP para todas las peticiones
@@ -34,8 +36,8 @@ function onRequest(request, response) {
 
 
 // Escuchar al puerto 8080
-server1.listen(port,host, ()=>{
-  console.log("Servidor funcionando en ",host, port);
+server1.listen(config.PORT,config. HOST, ()=>{
+  console.log("Servidor funcionando en ",config.PORT,config. HOST);
 
 });
 
