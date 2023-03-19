@@ -7,7 +7,7 @@
     "nodemon": "^2.0.21"
   },
   "scripts": {
-    "dev": "nodemon public/js/app.js ",
-    "start": "node public/js/app.js "
+    "dev": "nodemon app.js ",
+    "start": "node app.js "
   }
 }

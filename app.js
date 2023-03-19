@@ -10,7 +10,7 @@ const host='localhost';
 const port=3000;
 const server1 = http.createServer((req,res)=>{
 
-  fs.readFile('public/index.html', (err, data)=>{
+  fs.readFile('./public/index.html', (err, data)=>{
 
     if(err){
 
